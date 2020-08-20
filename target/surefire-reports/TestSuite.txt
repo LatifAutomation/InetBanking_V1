@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.436 sec <<< FAILURE! - in TestSuite
+loginTest(com.inetBanking.TestCases.TC_Login_001)  Time elapsed: 2.724 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.inetBanking.TestCases.TC_Login_001.loginTest(TC_Login_001.java:39)
+
