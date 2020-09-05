@@ -10,10 +10,12 @@
 	<parameter name="browser" value="chrome" />
 		
 		<classes>
-		    <class name="com.inetBanking.TestCases.TC_Login_001" />
-	   <!--  		<class name="com.inetBanking.TestCases.TC_Login_DDT_002" />  
+		  <!--   <class name="com.inetBanking.TestCases.TC_Login_001" />
+		    
+	    		<class name="com.inetBanking.TestCases.TC_Login_DDT_002" />  
 			<class name="com.inetBanking.TestCases.TC_AddCustomerTest_003" />  
 			<class name="com.inetBanking.TestCases.TC_EditCustomer_004" /> -->
+			<class name="com.inetBanking.TestCases.TC_NewAccount_004" />
 			
 		</classes>
 

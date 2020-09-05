@@ -2,12 +2,12 @@ package com.inetBanking.TestCases;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.inetBanking.PageObjects.BaseClass;
 import com.inetBanking.PageObjects.LoginPage;
 
-import junit.framework.Assert;
 
 public class TC_Login_001 extends BaseClass
 {

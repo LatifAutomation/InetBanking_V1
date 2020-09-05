@@ -3,9 +3,12 @@ package com.inetBanking.PageObjects;
 
 import java.io.File;
 import java.io.IOException;
+//import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeUnit;
-import org.apache.commons.lang3.RandomStringUtils;
+
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
+//import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
@@ -52,6 +55,7 @@ public void setUp(String br)
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	
 	driver.get("http://demo.guru99.com/v3/index.php");
+	//http://demo.guru99.com/v3/manager/addAccount.php
 	//Logger logger=Logger.getLogger("InetBanking_v1");
 	PropertyConfigurator.configure("Log4j.properties");
 
